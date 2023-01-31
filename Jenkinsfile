@@ -16,7 +16,7 @@ pipeline {
         }
       }
 
-        stage('Test2') { 
+      stage('Test') { 
         steps { 
            sh 'echo "Test application..."'
         }
